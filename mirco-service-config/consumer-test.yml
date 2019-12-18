@@ -16,6 +16,6 @@ feign:
  management:
    endpoints: 
      web:
-       exposure: 
-         include: hystrix.stream   
+      exposure: 
+        include: hystrix.stream   
 
