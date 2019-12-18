@@ -14,8 +14,8 @@ feign:
     enabled:true
 # 使用Hystrix Metrics Stream必备 
  management:
-   endpoints: 
+   endpoints:
      web:
-      exposure: 
+      exposure:
         include: hystrix.stream   
 
